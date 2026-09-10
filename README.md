@@ -1,16 +1,20 @@
-# AfriLynq — Professional B2B Demo
+# AfriLynq — Foundation 1.0 Professional B2B Demo
 
-Deployable Next.js demo for the AfriLynq agricultural marketplace.
+Clean Next.js App Router demo for the AfriLynq agricultural marketplace.
 
 ## Routes
-/ — public homepage
-/marketplace — product discovery
-/dashboard — buyer workspace
+- `/` public landing page
+- `/marketplace` product discovery
+- `/dashboard` buyer workspace
 
 ## Stack
-Next.js 15.5.24 · React 19 · TypeScript
+- Next.js 15.5.24
+- React 19
+- TypeScript
+- Plain CSS (no Tailwind, no PostCSS plugin, no Laravel)
 
 ## Deployment
-Use Node 20+ and `npm install` then `npm run build`.
+Vercel build command: `npm run build`
+No special environment variables are required for this frontend demo.
 
-This build intentionally keeps external provider integrations out of the visual demo. Images are temporary web references and should be replaced with licensed/AfriLynq-owned assets before production.
+The image URLs are temporary demo assets and should be replaced with licensed/AfriLynq-owned photography before production.

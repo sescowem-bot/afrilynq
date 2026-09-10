@@ -1,1 +1,3 @@
-const config={plugins:{"@tailwindcss/postcss":{}}};export default config;
+// AfriLynq uses plain CSS for this demo. Keep PostCSS plugin-free.
+const config = { plugins: {} };
+export default config;
